@@ -4,3 +4,8 @@ export interface Car {
     typeId: number;
     type: string;
   }
+
+export interface resultsInput{
+  makeID: string;
+  year: string;
+}
